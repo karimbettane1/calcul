@@ -642,6 +642,16 @@
       <span id="toast-message">Copié avec succès</span>
     </div>
 
+    <!-- Import map : permet au navigateur de résoudre l'import 'd3' de script.js
+         (GitHub Pages sert les fichiers sources sans bundler) -->
+    <script type="importmap">
+      {
+        "imports": {
+          "d3": "https://cdn.jsdelivr.net/npm/d3@7.9.0/+esm"
+        }
+      }
+    </script>
+
     <!-- Script JavaScript Vanilla -->
     <script type="module" src="./script.js"></script>
   </body>
