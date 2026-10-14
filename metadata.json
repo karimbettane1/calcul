@@ -1,0 +1,6 @@
+{
+  "name": "Calculatrice Pro - Moderne & Fluide",
+  "description": "Calculatrice professionnelle moderne en HTML5, CSS3 et JavaScript vanilla avec historique, support clavier, mode sombre/clair et calcul sécurisé sans eval.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
